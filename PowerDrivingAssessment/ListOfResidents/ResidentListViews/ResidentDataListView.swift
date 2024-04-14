@@ -54,7 +54,7 @@ struct ResidentDataListView: View {
                         Button("Add Residents") {isShowingItemSheet = true}
                             .buttonStyle(.borderedProminent)
                     })
-                    .offset(y: -60)
+                    .offset(y: -40)
                 }
             }
         }
