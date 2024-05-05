@@ -187,11 +187,15 @@ import Observation
     
     
     func totalScorePerformed() -> Int {
+        
+        let multiplier = 100
+        let divisor = 4
+        
         if countAction == 0 {
             return 0 // or any default value you prefer
         }
         
-        let score = numberOfActions * 100 / (4 * countAction)
+        let score = numberOfActions * multiplier / (divisor * countAction)
         return score
     }
     
