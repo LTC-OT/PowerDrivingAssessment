@@ -117,26 +117,6 @@ import Observation
    }
     
     
-
-//    var totalScore: Int {
-//        calculateTotalScore()
-//    }
-//
-//    private func calculateTotalScore() -> Int {
-//        let sumOfScores =
-//       accessBedRight + accessBedLeft + approachingDresser + approachingCloset +
-//       intoBathroom + approachingSink + approachingToilet + exitBathroom +
-//       slidingDoors + swingOpenDoors + automaticDoors + regularDoors +
-//       enteringElevator + spacingInElevator + exitingElevator +
-//       parkingUnderTable + parkingBesideTable + backInParking + parallelParking +
-//       upRamp + downRamp +
-//       turningRight + turningLeft + halfwayTurn + drivingBackwards + manipulatingCongestedArea +
-//       maneuverability + obstaclesUnexpected +
-//       speedSelection + sharingPublicSpace
-//        return sumOfScores * 100 / (4 * (Int(totalApplicableItems)))
-//    }
-    
-    
     var countAction: Int {
         countActivitiesPerformed()
     }
